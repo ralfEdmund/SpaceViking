@@ -15,7 +15,6 @@
 		BF504AC1143E53FB00C4011F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF504AC0143E53FB00C4011F /* UIKit.framework */; };
 		BF504AC3143E53FB00C4011F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF504AC2143E53FB00C4011F /* Foundation.framework */; };
 		BF504AC5143E53FB00C4011F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF504AC4143E53FB00C4011F /* CoreGraphics.framework */; };
-		BF504AC9143E53FB00C4011F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF504AC8143E53FB00C4011F /* Default.png */; };
 		BF504ACB143E53FB00C4011F /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = BF504ACA143E53FB00C4011F /* fps_images.png */; };
 		BF504ACD143E53FB00C4011F /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = BF504ACC143E53FB00C4011F /* fps_images-hd.png */; };
 		BF504ADC143E53FC00C4011F /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = BF504ADB143E53FC00C4011F /* iTunesArtwork */; };
@@ -190,6 +189,9 @@
 		BF504CC6143E594900C4011F /* scene1atlasiPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF504C9A143E594900C4011F /* scene1atlasiPhone.plist */; };
 		BF504CC7143E594900C4011F /* scene1atlasiPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = BF504C9B143E594900C4011F /* scene1atlasiPhone.png */; };
 		BF504CC8143E594900C4011F /* sv_anim_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF504C9C143E594900C4011F /* sv_anim_1.png */; };
+		BF504CCB143E5AA900C4011F /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF504CCA143E5AA900C4011F /* BackgroundLayer.m */; };
+		BF504CCE143E5C6F00C4011F /* GameplayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF504CCD143E5C6F00C4011F /* GameplayLayer.m */; };
+		BF504CD1143E5E0C00C4011F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BF504CD0143E5E0C00C4011F /* GameScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -202,7 +204,6 @@
 		BF504AC0143E53FB00C4011F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF504AC2143E53FB00C4011F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF504AC4143E53FB00C4011F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BF504AC8143E53FB00C4011F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		BF504ACA143E53FB00C4011F /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = Resources/fps_images.png; sourceTree = "<group>"; };
 		BF504ACC143E53FB00C4011F /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-hd.png"; path = "Resources/fps_images-hd.png"; sourceTree = "<group>"; };
 		BF504ADA143E53FC00C4011F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
@@ -495,6 +496,12 @@
 		BF504C9A143E594900C4011F /* scene1atlasiPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scene1atlasiPhone.plist; sourceTree = "<group>"; };
 		BF504C9B143E594900C4011F /* scene1atlasiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scene1atlasiPhone.png; sourceTree = "<group>"; };
 		BF504C9C143E594900C4011F /* sv_anim_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sv_anim_1.png; sourceTree = "<group>"; };
+		BF504CC9143E5AA900C4011F /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		BF504CCA143E5AA900C4011F /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
+		BF504CCC143E5C6F00C4011F /* GameplayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameplayLayer.h; sourceTree = "<group>"; };
+		BF504CCD143E5C6F00C4011F /* GameplayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameplayLayer.m; sourceTree = "<group>"; };
+		BF504CCF143E5E0C00C4011F /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		BF504CD0143E5E0C00C4011F /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -561,6 +568,12 @@
 				BF504ADD143E53FC00C4011F /* Shaders */,
 				BF504B14143E53FC00C4011F /* libs */,
 				BF504C52143E53FF00C4011F /* Supporting Files */,
+				BF504CCF143E5E0C00C4011F /* GameScene.h */,
+				BF504CD0143E5E0C00C4011F /* GameScene.m */,
+				BF504CCC143E5C6F00C4011F /* GameplayLayer.h */,
+				BF504CCD143E5C6F00C4011F /* GameplayLayer.m */,
+				BF504CC9143E5AA900C4011F /* BackgroundLayer.h */,
+				BF504CCA143E5AA900C4011F /* BackgroundLayer.m */,
 			);
 			path = "Space Viking";
 			sourceTree = "<group>";
@@ -569,7 +582,6 @@
 			isa = PBXGroup;
 			children = (
 				BF504C68143E594900C4011F /* Images */,
-				BF504AC8143E53FB00C4011F /* Default.png */,
 				BF504ACA143E53FB00C4011F /* fps_images.png */,
 				BF504ACC143E53FB00C4011F /* fps_images-hd.png */,
 				BF504ADA143E53FC00C4011F /* Info.plist */,
@@ -1099,7 +1111,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF504AC9143E53FB00C4011F /* Default.png in Resources */,
 				BF504ACB143E53FB00C4011F /* fps_images.png in Resources */,
 				BF504ACD143E53FB00C4011F /* fps_images-hd.png in Resources */,
 				BF504ADC143E53FC00C4011F /* iTunesArtwork in Resources */,
@@ -1284,6 +1295,9 @@
 				BF504C58143E53FF00C4011F /* AppDelegate.m in Sources */,
 				BF504C5B143E53FF00C4011F /* RootViewController.m in Sources */,
 				BF504C5E143E53FF00C4011F /* HelloWorldLayer.m in Sources */,
+				BF504CCB143E5AA900C4011F /* BackgroundLayer.m in Sources */,
+				BF504CCE143E5C6F00C4011F /* GameplayLayer.m in Sources */,
+				BF504CD1143E5E0C00C4011F /* GameScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
