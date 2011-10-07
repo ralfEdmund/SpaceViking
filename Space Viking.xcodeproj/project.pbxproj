@@ -144,7 +144,6 @@
 		BF504C55143E53FF00C4011F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF504C54143E53FF00C4011F /* main.m */; };
 		BF504C58143E53FF00C4011F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF504C57143E53FF00C4011F /* AppDelegate.m */; };
 		BF504C5B143E53FF00C4011F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF504C5A143E53FF00C4011F /* RootViewController.m */; };
-		BF504C5E143E53FF00C4011F /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF504C5D143E53FF00C4011F /* HelloWorldLayer.m */; };
 		BF504C9D143E594900C4011F /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = BF504C6A143E594900C4011F /* Default-Landscape.png */; };
 		BF504C9E143E594900C4011F /* Default-LandscapeLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = BF504C6B143E594900C4011F /* Default-LandscapeLeft.png */; };
 		BF504C9F143E594900C4011F /* Default-LandscapeRight.png in Resources */ = {isa = PBXBuildFile; fileRef = BF504C6C143E594900C4011F /* Default-LandscapeRight.png */; };
@@ -450,8 +449,6 @@
 		BF504C57143E53FF00C4011F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BF504C59143E53FF00C4011F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		BF504C5A143E53FF00C4011F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		BF504C5C143E53FF00C4011F /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		BF504C5D143E53FF00C4011F /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		BF504C6A143E594900C4011F /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
 		BF504C6B143E594900C4011F /* Default-LandscapeLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-LandscapeLeft.png"; sourceTree = "<group>"; };
 		BF504C6C143E594900C4011F /* Default-LandscapeRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-LandscapeRight.png"; sourceTree = "<group>"; };
@@ -562,8 +559,6 @@
 				BF504C57143E53FF00C4011F /* AppDelegate.m */,
 				BF504C59143E53FF00C4011F /* RootViewController.h */,
 				BF504C5A143E53FF00C4011F /* RootViewController.m */,
-				BF504C5C143E53FF00C4011F /* HelloWorldLayer.h */,
-				BF504C5D143E53FF00C4011F /* HelloWorldLayer.m */,
 				BF504AC7143E53FB00C4011F /* Resources */,
 				BF504ADD143E53FC00C4011F /* Shaders */,
 				BF504B14143E53FC00C4011F /* libs */,
@@ -1294,7 +1289,6 @@
 				BF504C55143E53FF00C4011F /* main.m in Sources */,
 				BF504C58143E53FF00C4011F /* AppDelegate.m in Sources */,
 				BF504C5B143E53FF00C4011F /* RootViewController.m in Sources */,
-				BF504C5E143E53FF00C4011F /* HelloWorldLayer.m in Sources */,
 				BF504CCB143E5AA900C4011F /* BackgroundLayer.m in Sources */,
 				BF504CCE143E5C6F00C4011F /* GameplayLayer.m in Sources */,
 				BF504CD1143E5E0C00C4011F /* GameScene.m in Sources */,
@@ -1403,6 +1397,7 @@
 				BF504C63143E53FF00C4011F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

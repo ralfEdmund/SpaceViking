@@ -19,9 +19,9 @@
         } else {
             backgroundImage = [CCSprite spriteWithFile:@"backgroundiPhone.png"];
         }
-        
-        CGSize screenSize = [[CCDirector sharedDirector] winSize];
-        [backgroundImage setPosition:CGPointMake(screenSize.width/2, screenSize.height/2)];
+    
+        CGSize screenSize = [CCDirector sharedDirector].winSize;
+        [backgroundImage setPosition:ccp(screenSize.width/2, screenSize.height/2)];
         [self addChild:backgroundImage z:0 tag:0];
     }
     return self;

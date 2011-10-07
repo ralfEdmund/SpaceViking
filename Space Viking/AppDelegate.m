@@ -25,8 +25,8 @@
 	// Uncomment the following code if your Application only supports landscape mode
 	//
 
-//	CC_ENABLE_DEFAULT_GL_STATES();
-//	CCDirector *director = [CCDirector sharedDirector];
+//  CC_ENABLE_DEFAULT_GL_STATES();
+//  CCDirector *director = [CCDirector sharedDirector];
 //	CGSize size = [director winSize];
 //	CCSprite *sprite = [CCSprite spriteWithFile:@"Default.png"];
 //	sprite.position = ccp(size.width/2, size.height/2);
@@ -65,7 +65,7 @@
 //	// Enables High Res mode (Retina Display) on iPhone 4 and maintains low res on all other devices
 	if( ! [director enableRetinaDisplay:YES] )
 		CCLOG(@"Retina Display Not supported");
-		
+    
 	[director setAnimationInterval:1.0/60];
 	[director setDisplayFPS:YES];
 	
